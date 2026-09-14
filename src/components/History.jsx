@@ -65,7 +65,7 @@ function History() {
       });
 
       const response = await fetch(
-        `http://localhost:5001/api/roadmaps/${roadmapId}/progress`,
+        `https://careerpilot-d4k4.onrender.com/api/roadmaps/${id}/progress`,
         {
           method: "PATCH",
           headers: {
