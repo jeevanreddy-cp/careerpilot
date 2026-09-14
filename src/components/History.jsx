@@ -13,7 +13,7 @@ function History() {
     const fetchRoadmaps = async () => {
       try {
         const response = await fetch(
-          "http://localhost:5001/api/roadmaps"
+          "https://careerpilot-d4k4.onrender.com"
         );
 
         if (!response.ok) {

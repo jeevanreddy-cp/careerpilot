@@ -34,7 +34,7 @@ function CareerChat() {
 
     try {
       const response = await fetch(
-        "http://localhost:5001/api/chat",
+        "https://careerpilot-d4k4.onrender.com/api/chat",
         {
           method: "POST",
           headers: {
